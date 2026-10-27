@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+ float c,f;
+ 
+ printf("Give the temperature in centigrade: the value of c");
+ scanf("\n%f",&c);
+ 
+ f=(c*9/5)+32;
+ printf("\nthe temperature in fahrenheit is %f",f);
+ 
+ printf("\nGive the value of f:temperature in fahrenheit");
+ scanf("\n%f",&f);
+ 
+ c=(f-32)*5/9;
+ printf("\nthe temperature in centigrade is %f",c);
+ 
+} 
+ 
